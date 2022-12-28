@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 768px) {
+.intro-box {
+    height: 4.5rem;
+    border-bottom: 1px solid black;
+}
+}
+
+.followers {
+    letter-spacing: 5px;
+    margin-top: .50rem;
+}
+
+.overall-report:nth-child(3) {
+    border-top: 5px solid;
+    border-image: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;
+}
+
+
+#378fe6 #3eda82
