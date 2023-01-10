@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 768px) {
+.intro-box {
+    height: 4.5rem;
+    border-bottom: 1px solid black;
+}
+}
+
+.followers {
+    letter-spacing: 5px;
+    margin-top: .50rem;
+}
+
+.overall-report:nth-child(3) {
+    border-top: 5px solid;
+    border-image: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;
+}
+
+/* custom css */
+
+.bg-color-switch {
+    background: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+.round-switch {
+    background-color: hsl(230, 17%, 14%) !important;
+    transform: translateX(-1px) !important;
+}
+
+.bg-change {
+    background: hsl(230, 17%, 14%);
+}
+
+.bg-cards {
+    background-color: hsl(228, 28%, 20%) !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.appear-animation {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+    transition: all 1s ease !important;
+}
